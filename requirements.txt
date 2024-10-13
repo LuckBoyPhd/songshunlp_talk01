@@ -4,4 +4,7 @@ sentence-transformers
 pypdf
 langchain_openai
 
-#sudo apt-get install git-lfs
+#sudo apt-get install git-lfs 
+
+#
+#git clone  https://www.modelscope.cn/maidalun/bce-embedding-base_v1.git

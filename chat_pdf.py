@@ -4,6 +4,8 @@ def bot(context,input_text):
 
     from langchain_openai import ChatOpenAI
     BASE_URL = "https://open.bigmodel.cn/api/paas/v4"
+
+    from key import API_KEY
     
     llm = ChatOpenAI(
         base_url = BASE_URL,
