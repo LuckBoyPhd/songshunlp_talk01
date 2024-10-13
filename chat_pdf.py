@@ -1,15 +1,14 @@
 
 
 def bot(context,input_text):
+    import os 
 
     from langchain_openai import ChatOpenAI
     BASE_URL = "https://open.bigmodel.cn/api/paas/v4"
-
-    from key import API_KEY
     
     llm = ChatOpenAI(
         base_url = BASE_URL,
-        api_key= API_KEY,
+        api_key= os.getenv("API_KEY"),
         model="glm-4",temperature=0.0)
 
     
