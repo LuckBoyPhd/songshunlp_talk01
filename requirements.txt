@@ -1,0 +1,7 @@
+langchain_community
+faiss-cpu
+sentence-transformers
+pypdf
+langchain_openai
+
+#sudo apt-get install git-lfs
